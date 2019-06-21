@@ -4,12 +4,16 @@ $.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof att
 function em1(){var c="";var addr="mailto:";for(var i=0;i<c.length;i++)addr+=String.fromCharCode(c.charCodeAt(i)-1);window.location.href=addr;}
 
 $(document).ready(function() {
-r=function(){dpi=window.devicePixelRatio;var a='data-src'; if($('.js .slide0').hasAttr('src')) { a='src'; } $('.js .slide0').attr(a, (dpi>1) ? 'images/dan-dimmock-323874-unsplash-1920.jpg' : 'images/dan-dimmock-323874-unsplash-960.jpg');
+r=function(){dpi=window.devicePixelRatio;var a='data-src'; if($('.js .slide0').hasAttr('src')) { a='src'; } $('.js .slide0').attr(a, (dpi>1) ? 'images/alinavarona_slide2-1920.jpg' : 'images/alinavarona_slide2-960.jpg');
 var a='data-src'; if($('.js .slide1').hasAttr('src')) { a='src'; } $('.js .slide1').attr(a, (dpi>1) ? 'images/charles-deloye-660433-unsplash-1920.jpg' : 'images/charles-deloye-660433-unsplash-960.jpg');
-var a='data-src'; if($('.js .slide2').hasAttr('src')) { a='src'; } $('.js .slide2').attr(a, (dpi>1) ? 'images/vasily-koloda-620886-unsplash-1920.jpg' : 'images/vasily-koloda-620886-unsplash-960.jpg');
-var a='data-src'; if($('.js .slide3').hasAttr('src')) { a='src'; } $('.js .slide3').attr(a, (dpi>1) ? 'images/nathan-dumlao-572047-unsplash-1920.jpg' : 'images/nathan-dumlao-572047-unsplash-960.jpg');
-var a='data-src'; if($('.js .slide4').hasAttr('src')) { a='src'; } $('.js .slide4').attr(a, (dpi>1) ? 'images/priscilla-du-preez-623040-unsplash-1920.jpg' : 'images/priscilla-du-preez-623040-unsplash-960.jpg');
-$('.js2').attr('src', (dpi>1) ? 'images/alinavarona_headshot-620.jpg' : 'images/alinavarona_headshot-310.jpg');};
+var a='data-src'; if($('.js .slide2').hasAttr('src')) { a='src'; } $('.js .slide2').attr(a, (dpi>1) ? 'images/alinavarona_slide6-1920.jpg' : 'images/alinavarona_slide6-960.jpg');
+var a='data-src'; if($('.js .slide3').hasAttr('src')) { a='src'; } $('.js .slide3').attr(a, (dpi>1) ? 'images/dan-dimmock-323874-unsplash-1920.jpg' : 'images/dan-dimmock-323874-unsplash-960.jpg');
+var a='data-src'; if($('.js .slide4').hasAttr('src')) { a='src'; } $('.js .slide4').attr(a, (dpi>1) ? 'images/alinavarona_slide5-1920.jpg' : 'images/alinavarona_slide5-960.jpg');
+var a='data-src'; if($('.js .slide5').hasAttr('src')) { a='src'; } $('.js .slide5').attr(a, (dpi>1) ? 'images/alinavarona_slide4-1920.jpg' : 'images/alinavarona_slide4-960.jpg');
+var a='data-src'; if($('.js .slide6').hasAttr('src')) { a='src'; } $('.js .slide6').attr(a, (dpi>1) ? 'images/priscilla-du-preez-623040-unsplash-1920.jpg' : 'images/priscilla-du-preez-623040-unsplash-960.jpg');
+var a='data-src'; if($('.js .slide7').hasAttr('src')) { a='src'; } $('.js .slide7').attr(a, (dpi>1) ? 'images/alinavarona_slide3-1920.jpg' : 'images/alinavarona_slide3-960.jpg');
+var a='data-src'; if($('.js .slide8').hasAttr('src')) { a='src'; } $('.js .slide8').attr(a, (dpi>1) ? 'images/alinavarona_slide1-1920.jpg' : 'images/alinavarona_slide1-960.jpg');
+$('.js2').attr('src', (dpi>1) ? 'images/alinavarona_headshot2-620.jpg' : 'images/alinavarona_headshot2-310.jpg');};
 if(!window.HTMLPictureElement){r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(){$(this).click(function(){var t=this.hash.length>1?$('[name="'+this.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
 $('form').h5Validate();setTimeout(function(){$('.js6').prop('disabled',false);$("input[name='kywee']").attr('value', 'iqmkwenimerrsxgno');},1000);

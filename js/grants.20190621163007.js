@@ -3,13 +3,11 @@ $.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof att
 
 
 $(document).ready(function() {
-r=function(){dpi=window.devicePixelRatio;$('.js45').attr('src', (dpi>1) ? 'images/alinavarona_sanmateologo-1138.jpg' : 'images/alinavarona_sanmateologo-569.jpg');};
-if(!window.HTMLPictureElement){r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(){$(this).click(function(){var t=this.hash.length>1?$('[name="'+this.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
 initMenu($('#m24')[0]);
 var wl = new woolite();
 wl.init();
-wl.addAnimation($('.js46')[0], "1.00s", "0.00s", 1, 100);
+wl.addAnimation($('.js45')[0], "1.00s", "0.00s", 1, 100);
 wl.start();
 
 });

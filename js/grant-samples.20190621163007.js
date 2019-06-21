@@ -3,12 +3,13 @@ $.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof att
 
 
 $(document).ready(function() {
-r=function(){dpi=window.devicePixelRatio;$('.js47').attr('src', (dpi>1) ? 'images/alinavarona_grantsamples-1618.jpg' : 'images/alinavarona_grantsamples-809.jpg');};
+r=function(){dpi=window.devicePixelRatio;$('.js46').attr('src', (dpi>1) ? 'images/alinavarona_grantsamples-1618.jpg' : 'images/alinavarona_grantsamples-809.jpg');};
 if(!window.HTMLPictureElement){r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(){$(this).click(function(){var t=this.hash.length>1?$('[name="'+this.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
 initMenu($('#m25')[0]);
 var wl = new woolite();
 wl.init();
+wl.addAnimation($('.js47')[0], "1.00s", "0.00s", 1, 100);
 wl.addAnimation($('.js48')[0], "1.00s", "0.00s", 1, 100);
 wl.addAnimation($('.js49')[0], "1.00s", "0.00s", 1, 100);
 wl.addAnimation($('.js50')[0], "1.00s", "0.00s", 1, 100);
@@ -24,7 +25,6 @@ wl.addAnimation($('.js59')[0], "1.00s", "0.00s", 1, 100);
 wl.addAnimation($('.js60')[0], "1.00s", "0.00s", 1, 100);
 wl.addAnimation($('.js61')[0], "1.00s", "0.00s", 1, 100);
 wl.addAnimation($('.js62')[0], "1.00s", "0.00s", 1, 100);
-wl.addAnimation($('.js63')[0], "1.00s", "0.00s", 1, 100);
 wl.start();
 
 });

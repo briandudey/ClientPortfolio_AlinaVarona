@@ -12,7 +12,7 @@ initMenu($('#m11')[0]);
 initMenu($('#m12')[0]);
 initMenu($('#m13')[0]);
 initMenu($('#m14')[0]);
-$('.c27').Stickyfill();
+$('.c31').Stickyfill();
 var wl = new woolite();
 wl.init();
 wl.addAnimation($('.js15')[0], "1.00s", "0.00s", 1, 100);
