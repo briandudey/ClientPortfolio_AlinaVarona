@@ -8,7 +8,7 @@ $('.js8').attr('src', (dpi>1) ? 'images/alinavarona_missionstatement-880.jpg' : 
 
 };
 if(!window.HTMLPictureElement){r();}
-(function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(){$(this).click(function(){var t=this.hash.length>1?$('[name="'+this.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
+(function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(i,e){$(e).click(function(){var t=e.hash.length>1?$('[name="'+e.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
 initMenu($('#m2')[0]);
 initMenu($('#m3')[0]);
 initMenu($('#m4')[0]);

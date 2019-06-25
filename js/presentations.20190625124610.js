@@ -5,14 +5,14 @@ $.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof att
 $(document).ready(function() {
 r=function(){dpi=window.devicePixelRatio;};
 if(!window.HTMLPictureElement){r();}
-(function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(){$(this).click(function(){var t=this.hash.length>1?$('[name="'+this.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
+(function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(i,e){$(e).click(function(){var t=e.hash.length>1?$('[name="'+e.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
 initMenu($('#m9')[0]);
 initMenu($('#m10')[0]);
 initMenu($('#m11')[0]);
 initMenu($('#m12')[0]);
 initMenu($('#m13')[0]);
 initMenu($('#m14')[0]);
-$('.c31').Stickyfill();
+$('.c26').Stickyfill();
 var wl = new woolite();
 wl.init();
 wl.addAnimation($('.js15')[0], "1.00s", "0.00s", 1, 100);
