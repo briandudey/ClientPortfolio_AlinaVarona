@@ -11,12 +11,12 @@ var a='data-src'; if($('.js .slide3').hasAttr('src')) { a='src'; } $('.js .slide
 var a='data-src'; if($('.js .slide4').hasAttr('src')) { a='src'; } $('.js .slide4').attr(a, (dpi>1) ? 'images/alinavarona_slide4-1920.jpg' : 'images/alinavarona_slide4-960-1.jpg');
 var a='data-src'; if($('.js .slide5').hasAttr('src')) { a='src'; } $('.js .slide5').attr(a, (dpi>1) ? 'images/alinavarona_slide3-1920.jpg' : 'images/alinavarona_slide3-960-1.jpg');
 var a='data-src'; if($('.js .slide6').hasAttr('src')) { a='src'; } $('.js .slide6').attr(a, (dpi>1) ? 'images/alinavarona_slide1-1920-1.jpg' : 'images/alinavarona_slide1-960-1.jpg');
-$('.js2').attr('src', (dpi>1) ? 'images/alinavarona_headshot2-620.jpg' : 'images/alinavarona_headshot2-310.jpg');};
+$('.js2').attr('src', (dpi>1) ? 'images/alinavarona_headshot2-1734.jpg' : 'images/alinavarona_headshot2-867.jpg');};
 if(!window.HTMLPictureElement){r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(i,e){$(e).click(function(){var t=e.hash.length>1?$('[name="'+e.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
-$('form').h5Validate();setTimeout(function(){$('.js6').prop('disabled',false);$("input[name='sjwlbhuwya']").attr('value', 'igqibjcgcmbagoaeqs');},1000);
+$('form').h5Validate();setTimeout(function(){$('.js6').prop('disabled',false);$("input[name='rlppsubqhpq']").attr('value', 'ugcwsnphdrm');},1000);
 initMenu($('#m1')[0]);
-$('.js .slider').slick({lazyLoad: 'ondemand',slidesToShow: 1,slidesToScroll: 1,fade: true,slide: 'div',cssEase: 'linear',speed: 1100,dots: false,arrows: false,infinite: true,autoplay: true,pauseOnHover: false,autoplaySpeed: 2500});var wl = new woolite();
+$('.js .slider').slick({lazyLoad: 'ondemand',slidesToShow: 1,slidesToScroll: 1,overflow: 'hidden',fade: true,slide: 'div',cssEase: 'linear',speed: 1100,dots: false,arrows: false,infinite: true,autoplay: true,pauseOnHover: false,autoplaySpeed: 2500});var wl = new woolite();
 wl.init();
 wl.addAnimation($('.js2')[0], "1.00s", "0.00s", 1, 100);
 wl.addAnimation($('.js3')[0], "1.00s", "0.00s", 1, 100);

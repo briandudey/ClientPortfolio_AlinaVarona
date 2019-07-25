@@ -25,6 +25,8 @@ wl.addAnimation($('.js59')[0], "1.00s", "0.00s", 1, 100);
 wl.addAnimation($('.js60')[0], "1.00s", "0.00s", 1, 100);
 wl.addAnimation($('.js61')[0], "1.00s", "0.00s", 1, 100);
 wl.addAnimation($('.js62')[0], "1.00s", "0.00s", 1, 100);
+wl.addAnimation($('.js63')[0], "1.00s", "0.00s", 1, 100);
+wl.addAnimation($('.js64')[0], "1.00s", "0.00s", 1, 100);
 wl.start();
 
 });
